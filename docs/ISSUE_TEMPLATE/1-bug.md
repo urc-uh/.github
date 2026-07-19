@@ -23,6 +23,9 @@ If you don't know how to use markdown, make sure and use the "Preview" tab at th
 <!--
 Fill out all of the steps you took that caused the bug to occur.
 Please be as detailed as possible.
+
+If at all possible, try on a fresh system with a fresh repo, and while running minimal code to help us isolate the issue.
+Add notes for alternate steps that *don't* reproduce the issue, if applicable.
 -->
 
 1. First step
@@ -34,3 +37,4 @@ Please be as detailed as possible.
 
 - Commit:  <!-- To find this run `g log -1 --oneline` in the repo and copy the string of letters and numbers at the beginning of the line -->
 - OS: 
+- Hardware:  <!-- If testing on rover systems, which devices where you testing and what was controlling them? -->
