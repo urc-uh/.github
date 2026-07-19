@@ -1,6 +1,6 @@
 ---
 name: Task
-description: Define a task. For software subteam use.
+description: Define a small improvement or technical implementation.
 title: ''
 labels: ''
 assignees: ''
