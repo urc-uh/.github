@@ -25,12 +25,12 @@ Fill out all of the steps you took that caused the bug to occur.
 Please be as detailed as possible.
 -->
 
-1.
-1.
-1.
+1. First step
+1. Then do this
+1. 
 
 ## System
 <!-- Please fill out everything below and add any details about your system you think may be helpful. -->
 
-- Commit: <!-- To find this run `g log -1 --oneline` in the repo and copy the string of letters and numbers at the beginning of the line -->
-- OS:
+- Commit:  <!-- To find this run `g log -1 --oneline` in the repo and copy the string of letters and numbers at the beginning of the line -->
+- OS: 
