@@ -28,3 +28,35 @@ Consider describing alternative solutions and compare them to your preference.
 -->
 
 
+## Acceptance Criteria
+<!--
+This section is for specifically defining what functionality must be demonstrated before the feature is considered complete.
+These will be edited and expanded by the software team, so just do your best to define the criteria you are aware of.
+Use (or don't) whichever subheadings you find appropriate.
+
+A criterion should:
+- Cover one specific requirement (use sub-bullets if necessary)
+- Clearly delineate when it is considered acceptable
+- Avoid implementation details (those can be discussed in comments)
+
+Software team: if you get to have too many criteria you should consider moving some into a subissue.
+-->
+
+- [ ] First criterion
+  - [ ] Sub-criterion
+- [x] Completed criterion
+
+### Error handling
+
+
+### Edge cases
+
+
+### Tests
+<!-- List any unit or integration tests that need to be added as criteria. -->
+
+
+### Documentation
+<!-- Criteria for how and where the feature will be documented MUST be included for this feature request to be accepted and moved to Ready status. -->
+
+
