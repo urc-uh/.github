@@ -1,6 +1,7 @@
 ---
 name: Feature request
 about: Request additional functionality. If unsure default to this.
+type: Feature
 ---
 
 <!--

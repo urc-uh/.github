@@ -1,6 +1,7 @@
 ---
 name: Task ticket
 about: Define a small improvement or technical implementation.
+type: Task
 ---
 
 ## Description

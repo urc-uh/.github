@@ -1,6 +1,7 @@
 ---
 name: Bug report
 about: Report that something isn't working right.
+type: Bug
 ---
 
 <!--
