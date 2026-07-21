@@ -1,9 +1,6 @@
 ---
-name: Task
-description: Define a small improvement or technical implementation.
-title: ''
-labels: ''
-assignees: ''
+name: Task ticket
+about: Define a small improvement or technical implementation.
 ---
 
 ## Description

@@ -1,9 +1,6 @@
 ---
 name: Bug report
-description: Report that something isn't working right.
-title: ''
-labels: 'bug'
-assignees: ''
+about: Report that something isn't working right.
 ---
 
 <!--

@@ -1,9 +1,6 @@
 ---
 name: Feature request
-description: Request additional functionality. If unsure default to this.
-title: ''
-labels: 'enhancement'
-assignees: ''
+about: Request additional functionality. If unsure default to this.
 ---
 
 <!--
