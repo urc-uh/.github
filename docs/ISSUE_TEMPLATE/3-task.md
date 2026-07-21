@@ -28,6 +28,12 @@ Software team: if you get to have too many criteria you should consider moving s
   - [ ] Sub-criterion
 - [x] Completed criterion
 
+### Error handling
+
+
+### Edge cases
+
+
 ### Tests
 <!-- List any unit or integration tests that need to be added as criteria. -->
 
