@@ -4,6 +4,12 @@ about: Define a small improvement or technical implementation.
 type: Task
 ---
 
+<!--
+Please include as much info as possible.
+
+If you don't know how to use markdown, make sure and use the "Preview" tab at the top to check how your report will look before you submit.
+-->
+
 ## Description
 <!-- What needs to be done? -->
 
@@ -38,5 +44,4 @@ Software team: if you get to have too many criteria you should consider moving s
 
 ### Documentation
 <!-- List any documentation that must be added or edited to support the change. -->
-
 

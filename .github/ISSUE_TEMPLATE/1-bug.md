@@ -6,6 +6,7 @@ type: Bug
 
 <!--
 Please be as detailed as possible in documenting the bug while filling all the sections below.
+
 If you don't know how to use markdown, make sure and use the "Preview" tab at the top to check how your report will look before you submit.
 -->
 

@@ -6,6 +6,7 @@ type: Feature
 
 <!--
 Please include as much info as possible.
+
 If you don't know how to use markdown, make sure and use the "Preview" tab at the top to check how your report will look before you submit.
 -->
 
@@ -56,5 +57,4 @@ Software team: if you get to have too many criteria you should consider moving s
 
 ### Documentation
 <!-- Criteria for how and where the feature will be documented MUST be included for this feature request to be accepted and moved to Ready status. -->
-
 
