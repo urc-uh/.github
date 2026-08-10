@@ -10,7 +10,7 @@ on:
 jobs:
   Generate-ToC:
     runs-on: ubuntu-latest
-    timeout-minuts: 5
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v2
       - run: |
