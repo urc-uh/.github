@@ -18,7 +18,7 @@ jobs:
           chmod a+x gh-md-toc
           for file in "README.md" "CONTRIBUTING.md" "CODE_OF_CONDUCT.md"
           do
-            if [ -f $file ]
+            if [ -f $file ] && [ grep --count '<[!]--ts-->' $file -eq 1 ]
             then
               ./gh-md-toc --insert --no-backup --hide-footer --skip-header $file
             fi
