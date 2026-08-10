@@ -24,8 +24,7 @@ This project is governed by the [Code of Conduct](CODE_OF_CONDUCT.md)
 
 If you need to submit a single pull request while still preserving history within the request, you can use rebase merging instead.
 ```console
-$ git fetch --all
-$ git rebase origin/main  # ensure you are up to date with the main branch
+$ git pull --rebase origin main  # ensure you are up to date with the main branch
 $ git rebase -i `git merge-base main HEAD`  # interactive rebase of all commits on the current branch since main
 ```
 Then, use `pick` to select which commits you want to keep and `squash` to move changes to the previous `pick`ed commit.
