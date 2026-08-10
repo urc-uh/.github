@@ -18,7 +18,10 @@ jobs:
           chmod a+x gh-md-toc
           for file in "README.md" "CONTRIBUTING.md" "CODE_OF_CONDUCT.md"
           do
-            ./gh-md-toc --insert --no-backup --skip-header --hide-footer README.md CONTRIBUTING.md CODE_OF_CONDUCT.md
+            if [ -f $file ]
+            then
+              ./gh-md-toc --insert --no-backup --skip-header --hide-footer $file
+            fi
           done
           rm gh-md-toc
         shell: bash
