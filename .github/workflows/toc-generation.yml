@@ -20,7 +20,7 @@ jobs:
           do
             if [ -f $file ]
             then
-              ./gh-md-toc --insert --no-backup --skip-header --hide-footer $file
+              ./gh-md-toc --insert --no-backup --hide-footer --skip-header $file
             fi
           done
           rm gh-md-toc
