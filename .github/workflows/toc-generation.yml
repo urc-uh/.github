@@ -10,7 +10,10 @@ on:
 jobs:
   Generate-ToC:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     timeout-minutes: 5
+
     steps:
       - uses: actions/checkout@v7
       - run: |
