@@ -66,6 +66,7 @@ However, these branches should not be used for pull requests.
 First, Violet and Tyler should merge their changes into `feat/issue-9-add-diff-drive-controller` then submit a pull request to merge `feat/issue-9-add-diff-drive-controller` into `main`.
 
 ### Markdown
+Use a separate line for each sentence.
 
 ## AI Agents
 Purely LLM-generated pull requests are not accepted.
