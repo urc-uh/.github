@@ -32,6 +32,7 @@ You will then be given an opportunity to combine the commit messages of any squa
 If you need to edit the messages any `pick`ed commits with no `squash`ed commits below them, use `reword` instead.
 If you don't need to combine the commit messages of any `squash`ed commits (for example, if the commit is just a typo fix) use `fixup` instead.
 It's also a good idea to add the line `exec just verify all` after every set of commits to ensure every individual commit passes all tests.
+See [here](https://gitcheatsheet.dev/docs/advanced/interactive-rebase) for more information on interactive rebases.
 
 Once you've properly rebased your local branch, run `git log origin/main..HEAD --oneline` and check that the first lines follow [scoped commits](https://scopedcommits.com).
 You should also run `git log origin/main..HEAD` and make sure the full commit messages include a detailed body.
