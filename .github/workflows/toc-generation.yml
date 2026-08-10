@@ -6,7 +6,6 @@ on:
       - 'README.md'
       - 'CONTRIBUTING.md'
       - 'CODE_OF_CONDUCT.md'
-  workflow_dispatch:
 
 jobs:
   Generate-ToC:
