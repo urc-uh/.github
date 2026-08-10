@@ -5,6 +5,18 @@ Thank you for taking the time to contribute!
 ## Table of Contents
 
 <!--ts-->
+   * [Code of Conduct](#code-of-conduct)
+   * [How To](#how-to)
+      * [File a bug report](#file-a-bug-report)
+      * [Work on an issue](#work-on-an-issue)
+      * [Submit a pull request](#submit-a-pull-request)
+         * [Rebase merging](#rebase-merging)
+   * [Styleguides](#styleguides)
+      * [Pull requests](#pull-requests)
+      * [Commits](#commits)
+      * [Branch naming](#branch-naming)
+      * [Markdown](#markdown)
+   * [AI Agents](#ai-agents)
 <!--te-->
 
 ## Code of Conduct
