@@ -68,7 +68,6 @@ First, Violet and Tyler should merge their changes into `feat/issue-9-add-diff-d
 ### Markdown
 Use a separate line for each sentence.
 This makes git diffs a lot easier to read.
-Test.
 
 ## AI Agents
 Purely LLM-generated pull requests are not accepted.
