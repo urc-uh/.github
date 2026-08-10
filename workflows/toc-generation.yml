@@ -1,0 +1,27 @@
+name: Table of Contents Generation
+run-name: ToC Generation
+on:
+  push:
+    paths:
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+      - 'CODE_OF_CONDUCT.md'
+
+jobs:
+  Generate-ToC:
+    runs-on: ubuntu-latest
+    timeout-minuts: 5
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
+          chmod a+x gh-md-toc
+          for file in "README.md" "CONTRIBUTING.md" "CODE_OF_CONDUCT.md"
+          do
+            ./gh-md-toc --insert --no-backup --skip-header --hide-footer README.md CONTRIBUTING.md CODE_OF_CONDUCT.md
+          done
+          rm gh-md-toc
+        shell: bash
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Auto update markdown ToC
