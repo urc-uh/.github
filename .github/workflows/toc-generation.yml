@@ -23,6 +23,7 @@ jobs:
           do
             if [ -f $file ] && [ grep --count '<[!]--ts-->' $file -eq 1 ]
             then
+              echo "Generating Table of Contents for ${file}"
               ./gh-md-toc --insert --no-backup --hide-footer --skip-header $file
             fi
           done
